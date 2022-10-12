@@ -25,5 +25,13 @@ div{
 }
 
 .effect:hover{
-  color: lightblue;
+  transition: 0.5s;
+  background-color: transparent;
+  border: 1px solid var(--night-mode);
+  border-radius: 20px;
+}
+
+.genera-lista{
+    border-radius: 0.8rem;
+    color: #181f29;
 }
