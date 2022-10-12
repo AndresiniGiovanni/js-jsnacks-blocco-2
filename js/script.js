@@ -11,12 +11,11 @@ function numeri() {
   if (number % 2 == 0) {
     console.log("Il numero é pari.");
     div.className = "div";
-    div.innerHTML = "pari";
-
+    div.innerHTML = "Il tuo numero é pari";
   } else {
     console.log("Il numero é dispari.");
     div.className = "div";
-    div.innerHTML = "dispari";
+    div.innerHTML = "Il tuo numero é dispari";
 
     div.append(div);
   }
@@ -24,3 +23,9 @@ function numeri() {
   button.addEventListener("click", numeri);
 }
 numeri();
+
+
+
+
+
+
