@@ -11,11 +11,11 @@ function numeri() {
   if (number % 2 == 0) {
     console.log("Il numero é pari.");
     div.className = "div";
-    div.innerHTML = "Il tuo numero é pari";
+    div.innerHTML = "Il tuo numero é: PARI";
   } else {
     console.log("Il numero é dispari.");
     div.className = "div";
-    div.innerHTML = "Il tuo numero é dispari";
+    div.innerHTML = "Il tuo numero é: DISPARI";
 
     div.append(div);
   }
