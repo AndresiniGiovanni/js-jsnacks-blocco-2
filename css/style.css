@@ -7,3 +7,7 @@ body {
     --night-mode: #181f29;
 }
 
+div{
+    color: white;
+    font-size: 18px;
+}
